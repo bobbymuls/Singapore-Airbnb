@@ -8,8 +8,6 @@ import folium
 from folium.plugins import FastMarkerCluster
 sns.set(style="darkgrid")
 
-os.chdir('C:/Users/bmuljono/Desktop/Personal Stuff/Singapore Airbnb Data')
-
 raw_df = pd.read_csv('listings.csv')
 
 # Data preprocessing
